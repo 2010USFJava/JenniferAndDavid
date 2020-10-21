@@ -37,7 +37,7 @@ public class Drink {
 
 	@Override
 	public String toString() {
-		return "drink [name=" + name + ", calories=" + calories + ", sugars=" + sugars + "]";
+		return name + ": calories=" + calories + "cal, sugars=" + sugars + "g";
 	}
 	
 	

@@ -37,7 +37,7 @@ public class Food {
 
 	@Override
 	public String toString() {
-		return "food [name=" + name + ", calories=" + calories + ", fat=" + fat + "]";
+		return name + ": calories=" + calories + "cal, fat=" + fat + "g";
 	}
 	
 	
